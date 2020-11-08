@@ -1,0 +1,497 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Vendor\bgfx\inc\3rdparty\dear-imgui\imgui.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Vendor\bgfx\inc\3rdparty\dear-imgui\imgui_demo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Vendor\bgfx\inc\3rdparty\dear-imgui\imgui_draw.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Vendor\bgfx\inc\3rdparty\dear-imgui\imgui_widgets.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Vendor\bgfx\common\debugdraw\debugdraw.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Vendor\bgfx\common\entry\cmd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Vendor\bgfx\common\entry\dialog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Vendor\bgfx\common\entry\entry.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Vendor\bgfx\common\entry\entry_noop.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Vendor\bgfx\common\entry\input.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Vendor\bgfx\common\font\font_manager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Vendor\bgfx\common\font\text_buffer_manager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Vendor\bgfx\common\font\text_metrics.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Vendor\bgfx\common\font\utf8.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Vendor\bgfx\common\imgui\imgui.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Vendor\bgfx\common\nanovg\nanovg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Vendor\bgfx\common\nanovg\nanovg_bgfx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Vendor\bgfx\common\ps\particle_system.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Vendor\bgfx\common\bgfx_utils.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Vendor\bgfx\common\bounds.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Vendor\bgfx\common\camera.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Vendor\bgfx\common\entry\entry_windows.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Vendor\bgfx\common\example-glue.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Vendor\bgfx\inc\3rdparty\meshoptimizer\src\allocator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Vendor\bgfx\inc\3rdparty\meshoptimizer\src\clusterizer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Vendor\bgfx\inc\3rdparty\meshoptimizer\src\indexcodec.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Vendor\bgfx\inc\3rdparty\meshoptimizer\src\indexgenerator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Vendor\bgfx\inc\3rdparty\meshoptimizer\src\overdrawanalyzer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Vendor\bgfx\inc\3rdparty\meshoptimizer\src\overdrawoptimizer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Vendor\bgfx\inc\3rdparty\meshoptimizer\src\simplifier.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Vendor\bgfx\inc\3rdparty\meshoptimizer\src\spatialorder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Vendor\bgfx\inc\3rdparty\meshoptimizer\src\stripifier.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Vendor\bgfx\inc\3rdparty\meshoptimizer\src\vcacheanalyzer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Vendor\bgfx\inc\3rdparty\meshoptimizer\src\vcacheoptimizer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Vendor\bgfx\inc\3rdparty\meshoptimizer\src\vertexcodec.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Vendor\bgfx\inc\3rdparty\meshoptimizer\src\vertexfilter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Vendor\bgfx\inc\3rdparty\meshoptimizer\src\vfetchanalyzer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Vendor\bgfx\inc\3rdparty\meshoptimizer\src\vfetchoptimizer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Vendor\bgfx\common\cube_atlas.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ttmpviewer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Vendor\bgfx\inc\bgfx\bgfx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\inc\bgfx\defines.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\inc\bgfx\embedded_shader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\inc\bgfx\platform.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\inc\bimg\bimg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\inc\bimg\decode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\inc\bimg\encode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\inc\bx\allocator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\inc\bx\bx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\inc\bx\commandline.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\inc\bx\config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\inc\bx\cpu.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\inc\bx\debug.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\inc\bx\easing.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\inc\bx\endian.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\inc\bx\error.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\inc\bx\file.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\inc\bx\filepath.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\inc\bx\float4x4_t.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\inc\bx\handlealloc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\inc\bx\hash.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\inc\bx\macros.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\inc\bx\maputil.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\inc\bx\math.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\inc\bx\mpscqueue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\inc\bx\mutex.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\inc\bx\os.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\inc\bx\pixelformat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\inc\bx\platform.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\inc\bx\process.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\inc\bx\readerwriter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\inc\bx\ringbuffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\inc\bx\rng.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\inc\bx\semaphore.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\inc\bx\settings.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\inc\bx\simd_t.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\inc\bx\sort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\inc\bx\spscqueue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\inc\bx\string.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\inc\bx\thread.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\inc\bx\timer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\inc\bx\uint32_t.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\inc\bx\url.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\inc\compat\msvc\alloca.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\inc\compat\msvc\dirent.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\inc\compat\msvc\inttypes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\inc\compat\msvc\stdbool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\common\debugdraw\debugdraw.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\common\debugdraw\fs_debugdraw_fill.bin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\common\debugdraw\fs_debugdraw_fill_lit.bin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\common\debugdraw\fs_debugdraw_fill_texture.bin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\common\debugdraw\fs_debugdraw_lines.bin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\common\debugdraw\fs_debugdraw_lines_stipple.bin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\common\debugdraw\vs_debugdraw_fill.bin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\common\debugdraw\vs_debugdraw_fill_lit.bin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\common\debugdraw\vs_debugdraw_fill_lit_mesh.bin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\common\debugdraw\vs_debugdraw_fill_mesh.bin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\common\debugdraw\vs_debugdraw_fill_texture.bin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\common\debugdraw\vs_debugdraw_lines.bin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\common\debugdraw\vs_debugdraw_lines_stipple.bin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\common\entry\cmd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\common\entry\dbg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\common\entry\dialog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\common\entry\entry.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\common\entry\entry_p.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\common\entry\input.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\common\font\font_manager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\common\font\fs_font_basic.bin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\common\font\fs_font_distance_field.bin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\common\font\fs_font_distance_field_subpixel.bin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\common\font\text_buffer_manager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\common\font\text_metrics.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\common\font\utf8.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\common\font\vs_font_basic.bin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\common\font\vs_font_distance_field.bin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\common\font\vs_font_distance_field_subpixel.bin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\common\imgui\droidsans.ttf.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\common\imgui\imgui.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\common\nanovg\fontstash.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\common\nanovg\fs_nanovg_fill.bin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\common\nanovg\nanovg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\common\nanovg\nanovg_bgfx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\common\ps\particle_system.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\common\aviwriter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\common\bgfx_utils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\common\bounds.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\common\camera.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\common\common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendor\bgfx\inc\3rdparty\meshoptimizer\src\meshoptimizer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Vendor\bgfx\inc\bx\inline\allocator.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Vendor\bgfx\inc\bx\inline\bx.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Vendor\bgfx\inc\bx\inline\cpu.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Vendor\bgfx\inc\bx\inline\easing.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Vendor\bgfx\inc\bx\inline\endian.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Vendor\bgfx\inc\bx\inline\error.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Vendor\bgfx\inc\bx\inline\float4x4_t.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Vendor\bgfx\inc\bx\inline\handlealloc.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Vendor\bgfx\inc\bx\inline\hash.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Vendor\bgfx\inc\bx\inline\math.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Vendor\bgfx\inc\bx\inline\mpscqueue.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Vendor\bgfx\inc\bx\inline\mutex.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Vendor\bgfx\inc\bx\inline\os.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Vendor\bgfx\inc\bx\inline\pixelformat.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Vendor\bgfx\inc\bx\inline\readerwriter.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Vendor\bgfx\inc\bx\inline\ringbuffer.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Vendor\bgfx\inc\bx\inline\rng.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Vendor\bgfx\inc\bx\inline\simd_ni.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Vendor\bgfx\inc\bx\inline\simd128_langext.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Vendor\bgfx\inc\bx\inline\simd128_neon.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Vendor\bgfx\inc\bx\inline\simd128_ref.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Vendor\bgfx\inc\bx\inline\simd128_sse.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Vendor\bgfx\inc\bx\inline\simd128_swizzle.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Vendor\bgfx\inc\bx\inline\simd256_avx.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Vendor\bgfx\inc\bx\inline\simd256_ref.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Vendor\bgfx\inc\bx\inline\sort.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Vendor\bgfx\inc\bx\inline\spscqueue.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Vendor\bgfx\inc\bx\inline\string.inl">
+      <Filter>头文件</Filter>
+    </None>
+    <None Include="Vendor\bgfx\inc\bx\inline\uint32_t.inl">
+      <Filter>头文件</Filter>
+    </None>
+  </ItemGroup>
+</Project>
